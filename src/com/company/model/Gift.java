@@ -1,24 +1,25 @@
 package com.company.model;
 
-import java.util.ArrayList;
-
 public class Gift {
     private String name;
     private String form;
     private int weight;
 
 
-    public Gift (){
+    public Gift() {
     }
 
-    public Gift (String name,String form,int weight){
-        this.name=name;
-        this.form=form;
-        this.weight=weight;
+    public Gift(String name, String form, int weight) {
+        this.name = name;
+        this.form = form;
+        this.weight = weight;
     }
 
     @Override
     public String toString() {
-        return String.format("name:"+name+"\nform"+form+"\nweight"+weight);
+        String srt = "gfgfgfg";
+        String srt2 = "gfgfgfg";
+        String srt3 = "gfgfgfg";
+        return String.format("name:" + name + "\nform" + form + "\nweight" + weight);
     }
 }
